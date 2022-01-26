@@ -1,0 +1,54 @@
+# LTS
+Django >=3.2.3, <4.0.0
+
+# Our packages
+openlxp-notification >=1.2.0
+
+openlxp-xia >=1.2.1
+
+openlxp-authentication >=1.1.1, <2.0
+
+# Major, Minor, Bugfix (locked at Minor level for consistency)
+djangorestframework >=3.13.0, <3.14.0
+
+gunicorn >=20.1.0, <20.2.0
+
+django-cors-headers >=3.11.0, <3.12.0
+
+django-elasticsearch-dsl >=7.2.2, <7.3.0
+
+django_elasticsearch_dsl_drf >=0.22.2, <0.23.0
+
+elasticsearch >=7.16.3, <7.17.0
+
+mysqlclient >=2.1.0, <2.2.0
+
+django-mysql >=4.4.0, <4.5.0
+
+django-model-utils >=4.2.0, <4.3.0
+
+Pillow >=9.0.0, <9.1.0
+
+boto3 ~=1.20.24
+
+django-ses >=2.3.1, <2.4.0
+
+pandas >=1.3.5, <1.4.0
+
+numpy >=1.22.1, <1.23.0
+
+django-celery-beat >=2.2.1, <2.3.0
+
+django-celery-results >=2.2.0, <2.3.0
+
+openpyxl >=3.0.7, <3.1.0
+
+redis >=4.1.1, <4.2.0
+
+# Year, Month, Release (locked at Year level for consistency)
+s3fs >=2022.1.0, <2023.0.0
+
+
+# Testing packages
+coverage>=5.5,<6.0
+ddt>=1.4.2, <1.5.0
